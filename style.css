@@ -1,2 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:  'Work Sans', Tahoma, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(291, 49%, 83%);
+    color: #000;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+h2 {
+    font-weight: bold;
+
+}
+
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.title{
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+.bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* btn */
+
+#content {
+    display: none;
+}
+#show:target #content {
+    display: inline-block;
+}
+#show:target #open {
+    display: none;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
